@@ -1,0 +1,3 @@
+
+#include "ChangeVehiclePlate\vehiclePlateDialog.hpp"
+#include "ChangeVehiclePlate\CfgNetworkMessages.hpp"
