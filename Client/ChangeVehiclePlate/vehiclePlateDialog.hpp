@@ -186,7 +186,7 @@ class RscVehiclePlateDialog
 		class PurchaseButton: VPD_RscButton
 		{
 			idc = 8047;
-			onMouseButtonClick = "_this call AtlasClient_gui_changePlateRequest";
+			onMouseButtonClick = "_this call AtlasClient_gui_plates_changePlateRequest";
 
 			text = "Apply"; //--- ToDo: Localize;
 			x = 0.402031 * safezoneW + safezoneX;

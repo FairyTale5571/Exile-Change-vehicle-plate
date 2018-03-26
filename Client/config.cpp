@@ -26,7 +26,7 @@ class CfgInteractionMenus
 			{
 				title = "Change plate";
 				condition = "true";
-				action = "_this call AtlasClient_gui_loadDialog";
+				action = "_this call AtlasClient_gui_plates_loadDialog";
 			};
 		};
 	};

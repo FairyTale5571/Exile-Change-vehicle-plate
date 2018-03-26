@@ -9,6 +9,6 @@
 forEach
 [
 	['ExileClient_object_vehicle_network_setPlateNumber', 'ChangeVehiclePlate\ExileClient_object_vehicle_network_setPlateNumber.sqf'],
-	['AtlasClient_gui_changePlateRequest', 'ChangeVehiclePlate\AtlasClient_gui_changePlateRequest.sqf'],
-	['AtlasClient_gui_loadDialog', 'ChangeVehiclePlate\AtlasClient_gui_loadDialog.sqf']
+	['AtlasClient_gui_plates_changePlateRequest', 'ChangeVehiclePlate\AtlasClient_gui_plates_changePlateRequest.sqf'],
+	['AtlasClient_gui_plates_loadDialog', 'ChangeVehiclePlate\AtlasClient_gui_plates_loadDialog.sqf']
 ];
