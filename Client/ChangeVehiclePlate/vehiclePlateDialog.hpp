@@ -199,6 +199,7 @@ class RscVehiclePlateDialog
 		class RscEdit_1400: VPD_RscEdit
 		{
 			idc = 8048;
+			maxChars = 15;
 			x = 0.407187 * safezoneW + safezoneX;
 			y = 0.445 * safezoneH + safezoneY;
 			w = 0.185625 * safezoneW;
