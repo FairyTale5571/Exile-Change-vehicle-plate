@@ -18,7 +18,7 @@ try
 	if (count _textPlate > 15) throw "Maximum 15 characters!";
 	_forbiddenCharacter = [_textPlate, _alphabet] call ExileClient_util_string_containsForbiddenCharacter;
 	if !(_forbiddenCharacter isEqualTo -1) throw "You used wrong haracters...";
-	if (getNumber(missionConfigFile >> "CfgVehiclePlateSettings" >> "onlyDonators") isEqualTo 1) then {	if !(getPlayerUID player in getArray(missionConfigFile >> "CfgVehiclePlateSettings" >> "uidDonators")) throw "That only for donators!"; };
+	if (getNumber(missionConfigFile >> "CfgVehiclePlateSettings" >> "onlyDonators") isEqualTo 1) then {	if !(getPlayerUID _playerObject in getArray(missionConfigFile >> "CfgVehiclePlateSettings" >> "uidDonators")) throw "That only for donators!"; };
 	_playerMoney = _playerObject getVariable ["ExileMoney",0];
 	_sales = getNumber(missionConfigFile >> "CfgVehiclePlateSettings" >> "cost");
 	if(_playerMoney < _sales) throw "Not enough money";
